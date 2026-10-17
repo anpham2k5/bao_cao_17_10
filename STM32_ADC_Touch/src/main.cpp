@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "HSE.h"  
+#include "HSI.h"  
 #include "ADCTouchSensor.h"
 
 ADCTouchSensor pressure1(PA0, PA1, 50);
@@ -7,7 +7,7 @@ ADCTouchSensor pressure2(PA3, PA1, 50);
 ADCTouchSensor pressure3(PA6, PA1, 50);
 ADCTouchSensor pressure4(PB1, PA1, 50);
 
-const unsigned int SAMPLES = 99;
+const unsigned int SAMPLES = 90;
 float Ref1 = 0, Ref2 = 0, Ref3 = 0, Ref4 = 0;
 
 // Đo xen kẽ: mỗi vòng đo lần lượt 4 chân, lặp lại SAMPLES lần rồi mới tính trung bình
