@@ -6,6 +6,8 @@
 ## B. Khó Khăn
 ## C. Báo cáo chi tiết 
 ### 1. Code sau rút gọn
+#### Source code:
+https://github.com/anpham2k5/bao_cao_17_10/tree/master/STM32_ADC_Touch/src
 
 ### 2. Đồ thị HSI và HSE khi không tác động mạch cũ
 - HSI có thời gian đo là 79.92ms
